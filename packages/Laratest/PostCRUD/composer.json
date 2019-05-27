@@ -11,7 +11,7 @@
         }
     ],
     "homepage": "http://test.com",
-    "keywords": ["Laravel", "PostCRUDTest"],
+    "keywords": ["Laratest", "PostCRUDTest"],
     "require": {
         "illuminate/support": "~5"
     },
