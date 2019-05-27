@@ -1,6 +1,6 @@
 <?php
 
-namespace Laratest\PostCRUD\Models;
+namespace MyVendorAbc\PostCRUD\Models;
 
 use Illuminate\Database\Eloquent\Model;
 

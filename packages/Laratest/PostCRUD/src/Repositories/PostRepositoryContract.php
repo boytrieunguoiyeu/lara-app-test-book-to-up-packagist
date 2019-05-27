@@ -1,6 +1,6 @@
 <?php
 
-namespace Laratest\PostCRUD\Repositories;
+namespace MyVendorAbc\PostCRUD\Repositories;
 
 interface PostRepositoryContract
 {

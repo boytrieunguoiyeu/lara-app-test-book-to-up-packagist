@@ -1,6 +1,6 @@
 <?php
 
-namespace Laratest\PostCRUD\Providers;
+namespace MyVendorAbc\PostCRUD\Providers;
 
 use Illuminate\Support\ServiceProvider;
 

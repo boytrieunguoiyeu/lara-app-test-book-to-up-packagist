@@ -1,5 +1,5 @@
 {
-    "name": "laratest/test-post",
+    "name": "MyVendorAbc/test-post",
     "type": "project",
     "description": "The Laravel Framework.",
     "keywords": [
@@ -34,7 +34,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Laratest\\PostCRUD\\": "packages/Laratest/PostCRUD/src",
+            "MyVendorAbc\\PostCRUD\\": "packages/MyVendorAbc/PostCRUD/src",
             "App\\": "app/"
         },
         "classmap": [
@@ -44,7 +44,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Laratest\\PostCRUD\\": "packages/Laratest/PostCRUD/src",
+            "MyVendorAbc\\PostCRUD\\": "packages/MyVendorAbc/PostCRUD/src",
             "Tests\\": "tests/"
         }
     },

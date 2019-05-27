@@ -1,6 +1,6 @@
 <?php
 
-namespace Laratest\PostCRUD\Services;
+namespace MyVendorAbc\PostCRUD\Services;
 
 interface PostServiceContract
 {

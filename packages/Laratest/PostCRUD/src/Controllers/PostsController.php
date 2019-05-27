@@ -1,14 +1,14 @@
 <?php
 
-namespace Laratest\PostCRUD\Controllers;
+namespace MyVendorAbc\PostCRUD\Controllers;
 
 use Illuminate\Http\Request;
-use Laratest\PostCRUD\Requests\EditPostRequest;
-use Laratest\PostCRUD\Services\PostServiceContract;
-use Laratest\PostCRUD\Requests\CreatePostRequest;
+use MyVendorAbc\PostCRUD\Requests\EditPostRequest;
+use MyVendorAbc\PostCRUD\Services\PostServiceContract;
+use MyVendorAbc\PostCRUD\Requests\CreatePostRequest;
 use App\Http\Controllers\Controller;
 
-class BooksController extends Controller
+class PostsController extends Controller
 {
     protected $service;
 
@@ -21,41 +21,41 @@ class BooksController extends Controller
     public function index()
     {
         $items = $this->service->paginate();
-        return view('book-crud::books.index', compact("items"));
+        return view('post-crud::posts.index', compact("items"));
     }
 
     public function create()
     {
-        return view('book-crud::books.create');
+        return view('post-crud::posts.create');
     }
 
     public function store(CreatePostRequest $request)
     {
         $this->service->store($request->all());
-        return redirect()->route('books.index');
+        return redirect()->route('posts.index');
     }
 
     public function show($id)
     {
         $item = $this->service->find($id);
-        return view('book-crud::books.show', compact('item'));
+        return view('post-crud::posts.show', compact('item'));
     }
 
     public function edit($id)
     {
         $item = $this->service->find($id);
-        return view('book-crud::books.edit', compact('item'));
+        return view('post-crud::posts.edit', compact('item'));
     }
 
     public function update(EditPostRequest $request, $id)
     {
         $this->service->update($id, $request->all());
-        return redirect()->route('books.index');
+        return redirect()->route('posts.index');
     }
 
     public function destroy($id)
     {
         $this->service->destroy($id);
-        return redirect()->route('books.index');
+        return redirect()->route('posts.index');
     }
 }

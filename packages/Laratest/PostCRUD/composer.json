@@ -1,5 +1,5 @@
 {
-    "name": "Laratest/post-crud-test",
+    "name": "MyVendorAbc/post-crud-test",
     "description": "Post CRUD package demo test",
     "license": "license",
     "authors": [
@@ -11,7 +11,7 @@
         }
     ],
     "homepage": "http://test.com",
-    "keywords": ["Laratest", "PostCRUDTest"],
+    "keywords": ["MyVendorAbc", "PostCRUDTest"],
     "require": {
         "illuminate/support": "~5"
     },
@@ -23,21 +23,21 @@
     },
     "autoload": {
         "psr-4": {
-            "Laratest\\PostCRUD\\": "src/"
+            "MyVendorAbc\\PostCRUD\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Laratest\\PostCRUD\\Tests\\": "tests"
+            "MyVendorAbc\\PostCRUD\\Tests\\": "tests"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Laratest\\PostCRUD\\PostCRUDServiceProvider"
+                "MyVendorAbc\\PostCRUD\\PostCRUDServiceProvider"
             ],
             "aliases": {
-                "PostCRUD": "Laratest\\PostCRUD\\Facades\\PostCRUD"
+                "PostCRUD": "MyVendorAbc\\PostCRUD\\Facades\\PostCRUD"
             }
         }
     }

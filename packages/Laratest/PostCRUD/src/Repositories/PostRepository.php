@@ -1,8 +1,8 @@
 <?php
 
-namespace Laratest\PostCRUD\Repositories;
+namespace MyVendorAbc\PostCRUD\Repositories;
 
-use Laratest\PostCRUD\Models\Post;
+use MyVendorAbc\PostCRUD\Models\Post;
 
 class PostRepository implements PostRepositoryContract
 {
