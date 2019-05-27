@@ -1,6 +1,6 @@
 <?php
 
-namespace Laratest\PostCRUD;
+namespace Laratestaaa\PostCRUD;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -13,8 +13,8 @@ class PostCRUDServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        // $this->loadTranslationsFrom(__DIR__.'/../resources/lang', 'Laratest');
-        // $this->loadViewsFrom(__DIR__.'/../resources/views', 'Laratest');
+        // $this->loadTranslationsFrom(__DIR__.'/../resources/lang', 'Laratestaaa');
+        // $this->loadViewsFrom(__DIR__.'/../resources/views', 'Laratestaaa');
         // $this->loadMigrationsFrom(__DIR__.'/../database/migrations');
         // $this->loadRoutesFrom(__DIR__.'/routes.php');
 
@@ -63,17 +63,17 @@ class PostCRUDServiceProvider extends ServiceProvider
 
         // Publishing the views.
         /*$this->publishes([
-            __DIR__.'/../resources/views' => base_path('resources/views/vendor/Laratest'),
+            __DIR__.'/../resources/views' => base_path('resources/views/vendor/Laratestaaa'),
         ], 'PostCRUD.views');*/
 
         // Publishing assets.
         /*$this->publishes([
-            __DIR__.'/../resources/assets' => public_path('vendor/Laratest'),
+            __DIR__.'/../resources/assets' => public_path('vendor/Laratestaaa'),
         ], 'PostCRUD.views');*/
 
         // Publishing the translation files.
         /*$this->publishes([
-            __DIR__.'/../resources/lang' => resource_path('lang/vendor/Laratest'),
+            __DIR__.'/../resources/lang' => resource_path('lang/vendor/Laratestaaa'),
         ], 'PostCRUD.views');*/
 
         // Registering package commands.

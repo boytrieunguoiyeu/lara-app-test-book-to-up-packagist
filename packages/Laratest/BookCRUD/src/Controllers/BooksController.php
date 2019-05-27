@@ -1,11 +1,11 @@
 <?php
 
-namespace Laratest\PostCRUD\Controllers;
+namespace Laratestaaa\PostCRUD\Controllers;
 
 use Illuminate\Http\Request;
-use Laratest\PostCRUD\Requests\EditBookRequest;
-use Laratest\PostCRUD\Services\BookServiceContract;
-use Laratest\PostCRUD\Requests\CreateBookRequest;
+use Laratestaaa\PostCRUD\Requests\EditBookRequest;
+use Laratestaaa\PostCRUD\Services\BookServiceContract;
+use Laratestaaa\PostCRUD\Requests\CreateBookRequest;
 use App\Http\Controllers\Controller;
 
 class BooksController extends Controller

@@ -1,6 +1,6 @@
 <?php
 
-namespace Laratest\PostCRUD\Repositories;
+namespace Laratestaaa\PostCRUD\Repositories;
 
 interface BookRepositoryContract
 {

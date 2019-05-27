@@ -1,8 +1,8 @@
 <?php
 
-namespace Laratest\PostCRUD\Services;
+namespace Laratestaaa\PostCRUD\Services;
 
-use Laratest\PostCRUD\Repositories\BookRepositoryContract;
+use Laratestaaa\PostCRUD\Repositories\BookRepositoryContract;
 
 class BookService implements BookServiceContract
 {

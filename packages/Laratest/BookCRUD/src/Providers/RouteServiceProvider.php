@@ -1,6 +1,6 @@
 <?php
 
-namespace Laratest\PostCRUD\Providers;
+namespace Laratestaaa\PostCRUD\Providers;
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Foundation\Support\Providers\RouteServiceProvider as ServiceProvider;
@@ -14,7 +14,7 @@ class RouteServiceProvider extends ServiceProvider
      *
      * @var string
      */
-    protected $namespace = 'Laratest\PostCRUD\Controllers';
+    protected $namespace = 'Laratestaaa\PostCRUD\Controllers';
 
     /**
      * Define your route model bindings, pattern filters, etc.

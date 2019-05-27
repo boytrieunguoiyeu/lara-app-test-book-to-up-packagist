@@ -1,6 +1,6 @@
 <?php
 
-namespace Laratest\PostCRUD\Services;
+namespace Laratestaaa\PostCRUD\Services;
 
 interface BookServiceContract
 {

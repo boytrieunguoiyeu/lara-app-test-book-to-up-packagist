@@ -12,7 +12,7 @@ This is where your description should go. Take a look at [contributing.md](contr
 Via Composer
 
 ``` bash
-$ composer require Laratest/PostCRUD
+$ composer require Laratestaaa/PostCRUD
 ```
 
 ## Usage
@@ -44,14 +44,14 @@ If you discover any security related issues, please email author email instead o
 
 license. Please see the [license file](license.md) for more information.
 
-[ico-version]: https://img.shields.io/packagist/v/Laratest/PostCRUD.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/Laratest/PostCRUD.svg?style=flat-square
-[ico-travis]: https://img.shields.io/travis/Laratest/PostCRUD/master.svg?style=flat-square
+[ico-version]: https://img.shields.io/packagist/v/Laratestaaa/PostCRUD.svg?style=flat-square
+[ico-downloads]: https://img.shields.io/packagist/dt/Laratestaaa/PostCRUD.svg?style=flat-square
+[ico-travis]: https://img.shields.io/travis/Laratestaaa/PostCRUD/master.svg?style=flat-square
 [ico-styleci]: https://styleci.io/repos/12345678/shield
 
-[link-packagist]: https://packagist.org/packages/Laratest/PostCRUD
-[link-downloads]: https://packagist.org/packages/Laratest/PostCRUD
-[link-travis]: https://travis-ci.org/Laratest/PostCRUD
+[link-packagist]: https://packagist.org/packages/Laratestaaa/PostCRUD
+[link-downloads]: https://packagist.org/packages/Laratestaaa/PostCRUD
+[link-travis]: https://travis-ci.org/Laratestaaa/PostCRUD
 [link-styleci]: https://styleci.io/repos/12345678
-[link-author]: https://github.com/Laratest
+[link-author]: https://github.com/Laratestaaa
 [link-contributors]: ../../contributors
