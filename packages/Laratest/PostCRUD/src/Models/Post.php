@@ -1,6 +1,6 @@
 <?php
 
-namespace MyVendorAbc\PostCRUD\Models;
+namespace Myvendorabc\PostCRUD\Models;
 
 use Illuminate\Database\Eloquent\Model;
 

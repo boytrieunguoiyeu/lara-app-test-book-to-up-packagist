@@ -1,6 +1,6 @@
 <?php
 
-namespace MyVendorAbc\PostCRUD\Facades;
+namespace Myvendorabc\PostCRUD\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

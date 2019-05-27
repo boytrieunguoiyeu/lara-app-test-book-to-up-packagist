@@ -1,6 +1,6 @@
 <?php
 
-namespace MyVendorAbc\PostCRUD;
+namespace Myvendorabc\PostCRUD;
 
 class PostCRUD
 {

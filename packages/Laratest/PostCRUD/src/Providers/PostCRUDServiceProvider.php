@@ -1,6 +1,6 @@
 <?php
 
-namespace MyVendorAbc\PostCRUD\Providers;
+namespace Myvendorabc\PostCRUD\Providers;
 
 use Illuminate\Support\ServiceProvider;
 

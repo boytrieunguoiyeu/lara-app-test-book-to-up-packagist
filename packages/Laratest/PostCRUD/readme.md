@@ -12,7 +12,7 @@ This is where your description should go. Take a look at [contributing.md](contr
 Via Composer
 
 ``` bash
-$ composer require MyVendorAbc/PostCRUD
+$ composer require Myvendorabc/PostCRUD
 ```
 
 ## Usage
@@ -44,14 +44,14 @@ If you discover any security related issues, please email author email instead o
 
 license. Please see the [license file](license.md) for more information.
 
-[ico-version]: https://img.shields.io/packagist/v/MyVendorAbc/PostCRUD.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/MyVendorAbc/PostCRUD.svg?style=flat-square
-[ico-travis]: https://img.shields.io/travis/MyVendorAbc/PostCRUD/master.svg?style=flat-square
+[ico-version]: https://img.shields.io/packagist/v/Myvendorabc/PostCRUD.svg?style=flat-square
+[ico-downloads]: https://img.shields.io/packagist/dt/Myvendorabc/PostCRUD.svg?style=flat-square
+[ico-travis]: https://img.shields.io/travis/Myvendorabc/PostCRUD/master.svg?style=flat-square
 [ico-styleci]: https://styleci.io/repos/12345678/shield
 
-[link-packagist]: https://packagist.org/packages/MyVendorAbc/PostCRUD
-[link-downloads]: https://packagist.org/packages/MyVendorAbc/PostCRUD
-[link-travis]: https://travis-ci.org/MyVendorAbc/PostCRUD
+[link-packagist]: https://packagist.org/packages/Myvendorabc/PostCRUD
+[link-downloads]: https://packagist.org/packages/Myvendorabc/PostCRUD
+[link-travis]: https://travis-ci.org/Myvendorabc/PostCRUD
 [link-styleci]: https://styleci.io/repos/12345678
-[link-author]: https://github.com/MyVendorAbc
+[link-author]: https://github.com/Myvendorabc
 [link-contributors]: ../../contributors

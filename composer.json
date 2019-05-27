@@ -1,5 +1,5 @@
 {
-    "name": "MyVendorAbc/test-post",
+    "name": "Myvendorabc/test-post",
     "type": "project",
     "description": "The Laravel Framework.",
     "keywords": [
@@ -34,7 +34,7 @@
     },
     "autoload": {
         "psr-4": {
-            "MyVendorAbc\\PostCRUD\\": "packages/MyVendorAbc/PostCRUD/src",
+            "Myvendorabc\\PostCRUD\\": "packages/Myvendorabc/PostCRUD/src",
             "App\\": "app/"
         },
         "classmap": [
@@ -44,7 +44,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "MyVendorAbc\\PostCRUD\\": "packages/MyVendorAbc/PostCRUD/src",
+            "Myvendorabc\\PostCRUD\\": "packages/Myvendorabc/PostCRUD/src",
             "Tests\\": "tests/"
         }
     },

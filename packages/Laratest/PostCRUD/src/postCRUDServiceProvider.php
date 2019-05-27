@@ -1,6 +1,6 @@
 <?php
 
-namespace MyVendorAbc\PostCRUD;
+namespace Myvendorabc\PostCRUD;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -13,8 +13,8 @@ class PostCRUDServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        // $this->loadTranslationsFrom(__DIR__.'/../resources/lang', 'MyVendorAbc');
-        // $this->loadViewsFrom(__DIR__.'/../resources/views', 'MyVendorAbc');
+        // $this->loadTranslationsFrom(__DIR__.'/../resources/lang', 'Myvendorabc');
+        // $this->loadViewsFrom(__DIR__.'/../resources/views', 'Myvendorabc');
         // $this->loadMigrationsFrom(__DIR__.'/../database/migrations');
         // $this->loadRoutesFrom(__DIR__.'/routes.php');
 
@@ -63,17 +63,17 @@ class PostCRUDServiceProvider extends ServiceProvider
 
         // Publishing the views.
         /*$this->publishes([
-            __DIR__.'/../resources/views' => base_path('resources/views/vendor/MyVendorAbc'),
+            __DIR__.'/../resources/views' => base_path('resources/views/vendor/Myvendorabc'),
         ], 'PostCRUD.views');*/
 
         // Publishing assets.
         /*$this->publishes([
-            __DIR__.'/../resources/assets' => public_path('vendor/MyVendorAbc'),
+            __DIR__.'/../resources/assets' => public_path('vendor/Myvendorabc'),
         ], 'PostCRUD.views');*/
 
         // Publishing the translation files.
         /*$this->publishes([
-            __DIR__.'/../resources/lang' => resource_path('lang/vendor/MyVendorAbc'),
+            __DIR__.'/../resources/lang' => resource_path('lang/vendor/Myvendorabc'),
         ], 'PostCRUD.views');*/
 
         // Registering package commands.

@@ -1,11 +1,11 @@
 <?php
 
-namespace MyVendorAbc\PostCRUD\Controllers;
+namespace Myvendorabc\PostCRUD\Controllers;
 
 use Illuminate\Http\Request;
-use MyVendorAbc\PostCRUD\Requests\EditPostRequest;
-use MyVendorAbc\PostCRUD\Services\PostServiceContract;
-use MyVendorAbc\PostCRUD\Requests\CreatePostRequest;
+use Myvendorabc\PostCRUD\Requests\EditPostRequest;
+use Myvendorabc\PostCRUD\Services\PostServiceContract;
+use Myvendorabc\PostCRUD\Requests\CreatePostRequest;
 use App\Http\Controllers\Controller;
 
 class PostsController extends Controller

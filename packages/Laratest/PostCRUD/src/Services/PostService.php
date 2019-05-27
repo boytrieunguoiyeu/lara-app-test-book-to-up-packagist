@@ -1,8 +1,8 @@
 <?php
 
-namespace MyVendorAbc\PostCRUD\Services;
+namespace Myvendorabc\PostCRUD\Services;
 
-use MyVendorAbc\PostCRUD\Repositories\PostRepositoryContract;
+use Myvendorabc\PostCRUD\Repositories\PostRepositoryContract;
 
 class PostService implements PostServiceContract
 {

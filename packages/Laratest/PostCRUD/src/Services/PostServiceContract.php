@@ -1,6 +1,6 @@
 <?php
 
-namespace MyVendorAbc\PostCRUD\Services;
+namespace Myvendorabc\PostCRUD\Services;
 
 interface PostServiceContract
 {

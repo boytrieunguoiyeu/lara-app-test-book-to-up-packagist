@@ -1,6 +1,6 @@
 <?php
 
-namespace MyVendorAbc\PostCRUD\Requests;
+namespace Myvendorabc\PostCRUD\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 

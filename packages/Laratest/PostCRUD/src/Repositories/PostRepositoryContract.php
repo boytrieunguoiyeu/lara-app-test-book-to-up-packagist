@@ -1,6 +1,6 @@
 <?php
 
-namespace MyVendorAbc\PostCRUD\Repositories;
+namespace Myvendorabc\PostCRUD\Repositories;
 
 interface PostRepositoryContract
 {
