@@ -1,10 +1,10 @@
 <?php
 
-namespace Laratest\BookCRUD\Providers;
+namespace Laratest\PostCRUD\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
-class BookCRUDServiceProvider extends ServiceProvider
+class PostCRUDServiceProvider extends ServiceProvider
 {
     /**
      * Register services.

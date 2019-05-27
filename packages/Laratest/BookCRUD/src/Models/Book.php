@@ -1,6 +1,6 @@
 <?php
 
-namespace Laratest\BookCRUD\Models;
+namespace Laratest\PostCRUD\Models;
 
 use Illuminate\Database\Eloquent\Model;
 

@@ -34,7 +34,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Laratest\\BookCRUD\\": "packages/Laratest/BookCRUD/src",
+            "Laratest\\PostCRUD\\": "packages/Laratest/PostCRUD/src",
             "App\\": "app/"
         },
         "classmap": [
@@ -44,7 +44,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Laratest\\BookCRUD\\": "packages/Laratest/BookCRUD/src",
+            "Laratest\\PostCRUD\\": "packages/Laratest/PostCRUD/src",
             "Tests\\": "tests/"
         }
     },

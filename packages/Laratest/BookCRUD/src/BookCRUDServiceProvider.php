@@ -1,10 +1,10 @@
 <?php
 
-namespace Laratest\BookCRUD;
+namespace Laratest\PostCRUD;
 
 use Illuminate\Support\ServiceProvider;
 
-class BookCRUDServiceProvider extends ServiceProvider
+class PostCRUDServiceProvider extends ServiceProvider
 {
     /**
      * Perform post-registration booting of services.
@@ -31,11 +31,11 @@ class BookCRUDServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->mergeConfigFrom(__DIR__.'/../config/bookcrud.php', 'bookcrud');
+        $this->mergeConfigFrom(__DIR__.'/../config/PostCRUD.php', 'PostCRUD');
 
         // Register the service the package provides.
-        $this->app->singleton('bookcrud', function ($app) {
-            return new BookCRUD;
+        $this->app->singleton('PostCRUD', function ($app) {
+            return new PostCRUD;
         });
     }
 
@@ -46,7 +46,7 @@ class BookCRUDServiceProvider extends ServiceProvider
      */
     public function provides()
     {
-        return ['bookcrud'];
+        return ['PostCRUD'];
     }
     
     /**
@@ -58,23 +58,23 @@ class BookCRUDServiceProvider extends ServiceProvider
     {
         // Publishing the configuration file.
         $this->publishes([
-            __DIR__.'/../config/bookcrud.php' => config_path('bookcrud.php'),
-        ], 'bookcrud.config');
+            __DIR__.'/../config/PostCRUD.php' => config_path('PostCRUD.php'),
+        ], 'PostCRUD.config');
 
         // Publishing the views.
         /*$this->publishes([
             __DIR__.'/../resources/views' => base_path('resources/views/vendor/Laratest'),
-        ], 'bookcrud.views');*/
+        ], 'PostCRUD.views');*/
 
         // Publishing assets.
         /*$this->publishes([
             __DIR__.'/../resources/assets' => public_path('vendor/Laratest'),
-        ], 'bookcrud.views');*/
+        ], 'PostCRUD.views');*/
 
         // Publishing the translation files.
         /*$this->publishes([
             __DIR__.'/../resources/lang' => resource_path('lang/vendor/Laratest'),
-        ], 'bookcrud.views');*/
+        ], 'PostCRUD.views');*/
 
         // Registering package commands.
         // $this->commands([]);

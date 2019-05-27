@@ -1,6 +1,6 @@
 <?php
 
-namespace Laratest\BookCRUD\Requests;
+namespace Laratest\PostCRUD\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 

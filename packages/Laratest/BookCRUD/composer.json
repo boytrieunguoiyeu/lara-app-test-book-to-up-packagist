@@ -11,7 +11,7 @@
         }
     ],
     "homepage": "http://test.com",
-    "keywords": ["Laravel", "BookCRUDTest"],
+    "keywords": ["Laravel", "PostCRUDTest"],
     "require": {
         "illuminate/support": "~5"
     },
@@ -23,21 +23,21 @@
     },
     "autoload": {
         "psr-4": {
-            "Laratest\\BookCRUD\\": "src/"
+            "Laratest\\PostCRUD\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Laratest\\BookCRUD\\Tests\\": "tests"
+            "Laratest\\PostCRUD\\Tests\\": "tests"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Laratest\\BookCRUD\\BookCRUDServiceProvider"
+                "Laratest\\PostCRUD\\PostCRUDServiceProvider"
             ],
             "aliases": {
-                "BookCRUD": "Laratest\\BookCRUD\\Facades\\BookCRUD"
+                "PostCRUD": "Laratest\\PostCRUD\\Facades\\PostCRUD"
             }
         }
     }

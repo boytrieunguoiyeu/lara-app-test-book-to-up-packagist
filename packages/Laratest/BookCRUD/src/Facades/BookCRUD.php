@@ -1,10 +1,10 @@
 <?php
 
-namespace Laratest\BookCRUD\Facades;
+namespace Laratest\PostCRUD\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
-class BookCRUD extends Facade
+class PostCRUD extends Facade
 {
     /**
      * Get the registered name of the component.
@@ -13,6 +13,6 @@ class BookCRUD extends Facade
      */
     protected static function getFacadeAccessor()
     {
-        return 'bookcrud';
+        return 'PostCRUD';
     }
 }

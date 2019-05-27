@@ -1,8 +1,8 @@
 <?php
 
-namespace Laratest\BookCRUD;
+namespace Laratest\PostCRUD;
 
-class BookCRUD
+class PostCRUD
 {
     // Build wonderful things
 }

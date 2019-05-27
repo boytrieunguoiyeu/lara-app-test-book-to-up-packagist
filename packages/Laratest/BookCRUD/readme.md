@@ -1,4 +1,4 @@
-# BookCRUD
+# PostCRUD
 
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Total Downloads][ico-downloads]][link-downloads]
@@ -12,7 +12,7 @@ This is where your description should go. Take a look at [contributing.md](contr
 Via Composer
 
 ``` bash
-$ composer require Laratest/bookcrud
+$ composer require Laratest/PostCRUD
 ```
 
 ## Usage
@@ -44,14 +44,14 @@ If you discover any security related issues, please email author email instead o
 
 license. Please see the [license file](license.md) for more information.
 
-[ico-version]: https://img.shields.io/packagist/v/Laratest/bookcrud.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/Laratest/bookcrud.svg?style=flat-square
-[ico-travis]: https://img.shields.io/travis/Laratest/bookcrud/master.svg?style=flat-square
+[ico-version]: https://img.shields.io/packagist/v/Laratest/PostCRUD.svg?style=flat-square
+[ico-downloads]: https://img.shields.io/packagist/dt/Laratest/PostCRUD.svg?style=flat-square
+[ico-travis]: https://img.shields.io/travis/Laratest/PostCRUD/master.svg?style=flat-square
 [ico-styleci]: https://styleci.io/repos/12345678/shield
 
-[link-packagist]: https://packagist.org/packages/Laratest/bookcrud
-[link-downloads]: https://packagist.org/packages/Laratest/bookcrud
-[link-travis]: https://travis-ci.org/Laratest/bookcrud
+[link-packagist]: https://packagist.org/packages/Laratest/PostCRUD
+[link-downloads]: https://packagist.org/packages/Laratest/PostCRUD
+[link-travis]: https://travis-ci.org/Laratest/PostCRUD
 [link-styleci]: https://styleci.io/repos/12345678
 [link-author]: https://github.com/Laratest
 [link-contributors]: ../../contributors
