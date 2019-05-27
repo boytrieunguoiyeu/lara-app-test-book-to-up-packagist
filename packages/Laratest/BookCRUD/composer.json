@@ -1,0 +1,44 @@
+{
+    "name": "Laratest/book-crud-test",
+    "description": "Book CRUD package demo test",
+    "license": "license",
+    "authors": [
+        {
+            "name": "test",
+            "email": "test@gmail.com",
+            "homepage": "http://test.com",
+            "role": "Engineer"
+        }
+    ],
+    "homepage": "http://test.com",
+    "keywords": ["Laravel", "BookCRUDTest"],
+    "require": {
+        "illuminate/support": "~5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~7.0",
+        "mockery/mockery": "^1.1",
+        "orchestra/testbench": "~3.0",
+        "sempro/phpunit-pretty-print": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Laratest\\BookCRUD\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Laratest\\BookCRUD\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Laratest\\BookCRUD\\BookCRUDServiceProvider"
+            ],
+            "aliases": {
+                "BookCRUD": "Laratest\\BookCRUD\\Facades\\BookCRUD"
+            }
+        }
+    }
+}
