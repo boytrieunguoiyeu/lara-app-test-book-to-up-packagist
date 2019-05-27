@@ -1,10 +1,10 @@
 <?php
 
-namespace Laratestaaa\PostCRUD\Models;
+namespace Laratest\PostCRUD\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Book extends Model
+class Post extends Model
 {
     protected $fillable = ['title', 'author'];
 }

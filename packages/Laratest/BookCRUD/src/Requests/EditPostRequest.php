@@ -1,10 +1,10 @@
 <?php
 
-namespace Laratestaaa\PostCRUD\Requests;
+namespace Laratest\PostCRUD\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 
-class EditBookRequest extends FormRequest
+class EditPostRequest extends FormRequest
 {
     /**
      * Determine if the user is authorized to make this request.

@@ -1,14 +1,14 @@
 <?php
 
-namespace Laratestaaa\PostCRUD\Repositories;
+namespace Laratest\PostCRUD\Repositories;
 
-use Laratestaaa\PostCRUD\Models\Book;
+use Laratest\PostCRUD\Models\Post;
 
-class BookRepository implements BookRepositoryContract
+class PostRepository implements PostRepositoryContract
 {
     protected $model;
 
-    public function __construct(Book $model)
+    public function __construct(Post $model)
     {
         $this->model = $model;
     }

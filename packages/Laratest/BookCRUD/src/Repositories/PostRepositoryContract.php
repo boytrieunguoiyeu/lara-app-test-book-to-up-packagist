@@ -1,8 +1,8 @@
 <?php
 
-namespace Laratestaaa\PostCRUD\Repositories;
+namespace Laratest\PostCRUD\Repositories;
 
-interface BookRepositoryContract
+interface PostRepositoryContract
 {
     public function paginate();
     public function find($id);

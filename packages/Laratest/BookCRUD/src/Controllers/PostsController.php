@@ -1,18 +1,18 @@
 <?php
 
-namespace Laratestaaa\PostCRUD\Controllers;
+namespace Laratest\PostCRUD\Controllers;
 
 use Illuminate\Http\Request;
-use Laratestaaa\PostCRUD\Requests\EditBookRequest;
-use Laratestaaa\PostCRUD\Services\BookServiceContract;
-use Laratestaaa\PostCRUD\Requests\CreateBookRequest;
+use Laratest\PostCRUD\Requests\EditPostRequest;
+use Laratest\PostCRUD\Services\PostServiceContract;
+use Laratest\PostCRUD\Requests\CreatePostRequest;
 use App\Http\Controllers\Controller;
 
 class BooksController extends Controller
 {
     protected $service;
 
-    public function __construct(BookServiceContract $service)
+    public function __construct(PostServiceContract $service)
     {
         $this->service = $service;
     }
@@ -29,7 +29,7 @@ class BooksController extends Controller
         return view('book-crud::books.create');
     }
 
-    public function store(CreateBookRequest $request)
+    public function store(CreatePostRequest $request)
     {
         $this->service->store($request->all());
         return redirect()->route('books.index');
@@ -47,7 +47,7 @@ class BooksController extends Controller
         return view('book-crud::books.edit', compact('item'));
     }
 
-    public function update(EditBookRequest $request, $id)
+    public function update(EditPostRequest $request, $id)
     {
         $this->service->update($id, $request->all());
         return redirect()->route('books.index');

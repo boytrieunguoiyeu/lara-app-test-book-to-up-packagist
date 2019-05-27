@@ -1,6 +1,6 @@
 <?php
 
-namespace Laratestaaa\PostCRUD\Facades;
+namespace Laratest\PostCRUD\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

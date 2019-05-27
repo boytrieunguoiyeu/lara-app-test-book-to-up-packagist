@@ -1,6 +1,6 @@
 {
-    "name": "Laratestaaa/book-crud-test",
-    "description": "Book CRUD package demo test",
+    "name": "Laratest/post-crud-test",
+    "description": "Post CRUD package demo test",
     "license": "license",
     "authors": [
         {
@@ -23,21 +23,21 @@
     },
     "autoload": {
         "psr-4": {
-            "Laratestaaa\\PostCRUD\\": "src/"
+            "Laratest\\PostCRUD\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Laratestaaa\\PostCRUD\\Tests\\": "tests"
+            "Laratest\\PostCRUD\\Tests\\": "tests"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Laratestaaa\\PostCRUD\\PostCRUDServiceProvider"
+                "Laratest\\PostCRUD\\PostCRUDServiceProvider"
             ],
             "aliases": {
-                "PostCRUD": "Laratestaaa\\PostCRUD\\Facades\\PostCRUD"
+                "PostCRUD": "Laratest\\PostCRUD\\Facades\\PostCRUD"
             }
         }
     }

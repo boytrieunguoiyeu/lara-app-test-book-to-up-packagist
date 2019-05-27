@@ -12,5 +12,5 @@
 */
 
 Route::group(['middleware' => 'auth'], function () {
-    Route::resource('/books', 'BooksController');
+    Route::resource('/posts', 'PostsController');
 });

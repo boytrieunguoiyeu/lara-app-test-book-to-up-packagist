@@ -1,6 +1,6 @@
 <?php
 
-namespace Laratestaaa\PostCRUD;
+namespace Laratest\PostCRUD;
 
 class PostCRUD
 {
